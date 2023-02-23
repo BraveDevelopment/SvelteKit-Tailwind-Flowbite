@@ -1,7 +1,7 @@
 module.exports = {
 	content: [
-		"./src/routes/**/*.{svelte,js}",
-		"./src/lib/components/**/*.{svelte,js}",
+		"./src/**/*.{svelte,js}",
+        "./node_modules/flowbite/**/*.js",
 	],
 	darkMode: "class",
 	theme: {
@@ -11,10 +11,30 @@ module.exports = {
 			lg: "976px",
 			xl: "1440px",
 		},
+		extend: {
+			colors: {
+				primary: {
+					50: "#eff6ff",
+					100: "#dbeafe",
+					200: "#bfdbfe",
+					300: "#93c5fd",
+					400: "#60a5fa",
+					500: "#3b82f6",
+					600: "#2563eb",
+					700: "#1d4ed8",
+					800: "#1e40af",
+					900: "#1e3a8a",
+				},
+			},
+		},
 		fontFamily: {
-			sans: ["Inter", "sans-serif"],
-			serif: ["Merriweather", "serif"],
+			body: [
+				"Inter",
+			],
+			sans: [
+				"Inter",
+			],
 		},
 	},
-	plugins: [require("flowbite-typography"), require("flowbite/plugin")],
+	plugins: [require("flowbite/plugin")],
 };

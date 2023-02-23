@@ -27,7 +27,7 @@
 			<div class="flex md:order-2">
 				<button
 					type="button"
-					class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-primary-700 dark:hover:bg-primary-800 dark:focus:ring-primary-900"
 					>Get started</button
 				>
 				<button
@@ -92,7 +92,7 @@
 		</div>
 	</nav>
 
-	<div class="pt-28 pb-12 container mx-auto">
+	<div class="pt-20 pb-12 container mx-auto">
 		<slot />
 	</div>
 </div>
